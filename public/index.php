@@ -9,7 +9,7 @@ include('./../app/autoload.php');
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ponto digital,Controle acesso, Porta cartão, Relogio cartografico, Relogio henry, Controle de ponto, Ponto web, Ponto facial, Cartao de ponto, Fitas relogio de ponto,Relogio vigia, Controle de ponto,Pontosecullum, Ponto Atecsolft, Relogio de ponto homologado, Relogio de ponto aprovado inmetro,Porta cartão, eletroponto, eletroponto rn, eletroponto natal, catraca de ponto, jornada de trabalho">

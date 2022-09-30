@@ -7,7 +7,7 @@
   </div>
 
   <div class="divisor" id="about">
-      <h3>Ponto Web - Secullum</h3>
+      <h3>Oque vai aprender neste curso?</h3>
   </div>
 
   <div class="videoContainer">
@@ -218,8 +218,8 @@
   </div>
 
   <div class="about">
-    <img src="<?= URL ?>/img/mte.png" alt="">
-    <p>Nosso sistema de App de Ponto Facial é regulamentado e homologado, através da Portaria 671 e Decreto 10.854 de 11/2021 do MTE.</p>
+    <img src="<?= URL ?>/img/sucesso.png" alt="">
+    <p>Expanda seu conhecimento. Tenha um conhecimento que te levará ao sucesso.</p>
   </div>
 
   <div class="linkWts">

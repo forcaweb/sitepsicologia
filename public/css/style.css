@@ -148,10 +148,22 @@ h1{
 
 .header .navigation:nth-child(2) a:hover::after{
     top: auto;
-    width: 100%;
+    animation: aniNav 1s;
 }
 .header .navigation:nth-child(2) a i{
     margin-right: 7px;
+}
+
+@keyframes aniNav {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
 }
 
 /*######## welcome ##############*/
@@ -205,7 +217,7 @@ h1{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -495,7 +507,7 @@ h1{
     color: #fff;
     font-weight: lighter;
     background-color: var(--colorDefault);
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 30px;
     padding: 10px 30px;
 }
 
@@ -872,7 +884,7 @@ h1{
 .gotop a i{
   font-size: 50px;
   position: relative;
-  color: #8a59ed;
+  color: var(--colorDefault);
 }
 
 /*######## obout ##############*/
@@ -881,7 +893,7 @@ h1{
     position: relative;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
@@ -967,7 +979,7 @@ h1{
   width: 100%;
   font-size: 20px;
   font-weight: 400;
-  color: #3f528c;
+  color: var(--colorDefault);
   position: relative;
 }
 
