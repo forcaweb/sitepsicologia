@@ -13,66 +13,50 @@
   <div class="videoContainer">
         <div class="videoCamp">
           <video loop autoplay muted>
-            <source src="<?= URL ?>/video/2.mp4" type="video/mp4">
+            <source src="<?= URL ?>/video/1.mp4" type="video/mp4">
           </video>
           <div class="playVideo" data-video="3"><i class="bi bi-play-circle"></i></div>
         </div>
         <div class="descCamp">
-          <h3>Registro por Smartphone</h3>
-          <p>Registros, justificativas, ajustes, envio de atestado e assinatura de cartão ponto na palma da mão.
-          Experimente o App Central do Funcionário.
-          Disponível para Android e IOS.</p>
+          <h3>Conheça um pouco sobre o curso</h3>
+          <p>Você vai aprender tudo sobre a psicologia e estimulação cognitiva. A mente humana tem segredos a seren desvendado. Entenda como uma pessoa pensa e entende uma informção.</p>
         </div> 
   </div>
 
   <div class="appInfo">
       <div class="textCamp">
-          <h3>Integração Fácil</h3>
-          <p>Compatível com a maioria das marcas e modelos de Relógio Ponto e diversos Sistemas de Folha, a integração do Secullum Ponto vira uma tarefa descomplicada.</p>
+          <h3>O QUE É O CÉREBRO+ATIVO?</h3>
+          <p>Cérebro+Ativo é uma clínica de estimulação cognitiva que desenvolve atividades como: enigmas desafiadores, atividades lúdicas e outras que promovem a neuroplasticidade, ativação das funções cognitivas e a potencialização de habilidades naturais já existentes no indivíduo.</p>
       </div>
-      <div class="imgs">
-          <img class="imgsHiddens" src="<?= URL ?>/img/integracao.svg" alt="">
+      <div class="textCamp">
+          <h3>O QUE FAZ O CÉREBRO+ATIVO?</h3>
+          <p>• Estimulação das capacidades cognitivas como: atenção, percepção, memória, raciocínio, imaginação, pensamento, linguagem, criatividade, capacidade de ação, coordenação motora, concentração;<br>
+          • desenvolvimento de habilidades para solucionar problemas;<br>
+          • prevenção de transtornos como estresse, ansiedade, depressão;<br>
+          • reabilitação em casos de AVC e no retardo da demência por Alzheimer,<br>
+          • recuperação da dificuldades de memória pós-covid. </p>
       </div>
   </div>
 
   <div class="appInfo">
-        <div class="imgs">
-          <img class="imgsHiddens" src="<?= URL ?>/img/remoto.svg" alt="">
-        </div>
-        <div class="textCamp">
-          <h3>Gerenciamento Remoto</h3>
-          <p>Com o Ponto Web é possível gerenciar registros de ponto, aprovar solicitações e muito mais, quando e de onde você quiser, sem a necessidade de estar presencialmente na empresa.</p>
-        </div> 
+      <div class="textCamp">
+          <h3>PARA QUEM É INDICADA A ESTIMULAÇÃO COGNITIVA?</h3>
+          <p>
+          • Para crianças, adolescentes, jovens, adultos e idosos com dificuldades de memória e/ou transtornos de aprendizagem como TDA E TDAH. <br><br>
+          Por meio das atividades e práticas cognitivas realizadas no Cérebro+Ativo, é possível exercitar e promover a ativação cerebral promovendo novas conexões neurais, mais equilíbrio nas relações, resoluções de problemas cotidianos, estimulação das habilidades mentais e melhora da qualidade de vida.</p>
+      </div>
+      <div class="textCamp">
+          <p>A memória é o único paraíso do qual não podemos ser expulsos.</p>
+          <small>Johann Paul Richter</small> 
+      </div>
   </div>
 
-  <div class="divisor" id="soft">
-      <h3>Como trabalhamos</h3>
-  </div>
-
-  <div class="videoContainer">
-      <div class="descCamp">
-        <h3>Secullum Ponto Web</h3>
-          <p>Crie rapidamente turnos, escalas e banco de horas,
-          Controle a jornada de colaboradores externos ou em home office com segurança e eficiencia,
-          Envie a folha de ponto para assinatura eletronica de seus colaboradores pelo App,
-          Gerencie a folha de ponto de várias filiais de qualquer lugar com internet,
-          Acompanhe indicadores chave em tempo real,
-          Visualize rapidamente os detalhes de cálculos,
-          Mensure a Qualidade de Vida no Trabalho (QVT);
-          Utilize Geolocalização e Reconhecimento Facial no registro de ponto,
-          Flexibilize e automatize processos do RH de sua empresa usando o App,
-          Emita relatórios personalizados e muito mais.</p>
-      </div>
-      <div class="videoCamp">
-        <video loop autoplay muted>
-          <source src="<?= URL ?>/video/1.mp4" type="video/mp4">
-        </video>
-          <div class="playVideo" data-video="3"><i class="bi bi-play-circle"></i></div>
-      </div>
+  <div class="divisor" id="includes">
+      <h3>O que vem inluido no curso</h3>
   </div>
 
   <div class="category">
-    <h1>Nossos planos inclui</h1>
+    <h1>Nossos cursos inclui</h1>
     <div class="swiper categories">
         <div class="swiper-wrapper">
           <div class="swiper-slide">

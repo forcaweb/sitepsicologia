@@ -9,7 +9,7 @@
       <div class="boxLinks">
         <h2>Link Rápido</h2>
         <a class="navLocation" href="#about" title="Sobre Eletroponto">Sobre</a>
-        <a class="navLocation" href="#soft" title="Softwares">Como trabalhamos</a>
+        <a class="navLocation" href="#soft" title="Softwares">Materiais</a>
       </div>
 
       <div class="boxLinks">
