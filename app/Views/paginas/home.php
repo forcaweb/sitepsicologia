@@ -42,12 +42,12 @@
       <div class="textCamp">
           <h3>PARA QUEM É INDICADA A ESTIMULAÇÃO COGNITIVA?</h3>
           <p>
-          • Para crianças, adolescentes, jovens, adultos e idosos com dificuldades de memória e/ou transtornos de aprendizagem como TDA E TDAH. <br><br>
-          Por meio das atividades e práticas cognitivas realizadas no Cérebro+Ativo, é possível exercitar e promover a ativação cerebral promovendo novas conexões neurais, mais equilíbrio nas relações, resoluções de problemas cotidianos, estimulação das habilidades mentais e melhora da qualidade de vida.</p>
+          • Para crianças, adolescentes, jovens, adultos e idosos com dificuldades de memória e/ou transtornos de aprendizagem como TDA E TDAH. </p>
+          <p>Por meio das atividades e práticas cognitivas realizadas no Cérebro+Ativo, é possível exercitar e promover a ativação cerebral promovendo novas conexões neurais, mais equilíbrio nas relações, resoluções de problemas cotidianos, estimulação das habilidades mentais e melhora da qualidade de vida.</p>
       </div>
       <div class="textCamp">
-          <p>A memória é o único paraíso do qual não podemos ser expulsos.</p>
-          <small>Johann Paul Richter</small> 
+          <p>"A memória é o único paraíso do qual não podemos ser expulsos."</p>
+          <small>Autor: Johann Paul Richter</small> 
       </div>
   </div>
 
@@ -57,147 +57,14 @@
 
   <div class="category">
     <h1>Nossos cursos inclui</h1>
-    <div class="swiper categories">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Backup automático em Nuvem</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Totalmente Web</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Ponto por QR Code</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Ponto por App com Geolocalização</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Decomposição de Cálculos em tela</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Comprovante de ponto por E-mail</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Feriados Facultativos</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Ponto sem Internet/por Perímetro</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Solicitar foto ao incluir ponto</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Envio de Atestado pelo App</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Assinatura Eletrônica do Cartão Ponto</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Múltiplos Contratos por Funcionário</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Feriados por Cidades</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Dashboard de Rotatividade</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Reconhecimento Facial Online/Offline</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Pesquisas de QVT</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Registro de Atividades diárias</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Feriados por Departamentos</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Hierarquia de Estruturas no App</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Personalização de itens do sistema</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="boxExemples">
-              <i class="bi bi-check2-square"></i>
-              <p>Disponibilizada mediante avaliação técnica/comercial.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
+    
   </div>
 
   <div class="budget">
     <div class="content">
-      <h1>Integração com Secullum Checkin</h1>
-      <p>O Secullum Checkin é um aplicativo para Tablets e Smartphones, completo para quem procura otimizar o controle de acesso com um baixo investimento.</p>
-      <p>É capaz de identificar pessoas através de reconhecimento facial, senhas numéricas ou QR Code.</p>
-      <a href="<?= WtsRN ?>" target="blank">Solicitar orçamento</a>
+      <h1>Vai aprender:</h1>
+      <p> estimulação cognitiva atua diretamente nos mecanismos ligados à plasticidade cerebral (processo adaptativo do cérebro). Nas sessões, utilizamos exercícios e atividades terapêuticas que buscam preservar ou melhorar o desempenho de domínios como: memória, atenção, raciocínio, funções executivas, entre outros.</p>
+      <a href="<?= WtsRN ?>" target="blank">Inscrever-se no curso</a>
     </div>
   </div>
 

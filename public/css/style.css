@@ -1,17 +1,17 @@
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+    font-family: Fira Sans;
+    src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf);
 }
 @font-face {
-    font-family: Ubuntu_bold;
-    src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
+    font-family: Manrope;
+    src: url(../fonts/Manrope/Manrope-VariableFont_wght.ttf);
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Ubuntu;
+    font-family: Manrope;
     list-style: none;
     scroll-behavior: smooth;
 }
@@ -38,7 +38,7 @@ h1{
 :root {
     --colorDefault : #332F4A;
     --colorSecundary : #294761;
-    --colorText : #6e7076;
+    --colorText : #181821;
     --colorBlack : #333;
 }
 
@@ -610,15 +610,16 @@ h1{
 .videoContainer .textCamp h3{
     font-size: 40px;
     font-weight: 800;
-    color: #333;
+    color: var(--colorText);
     line-height: 1.2;
 }
 
 .videoContainer .textCamp p{
     font-size: 16px;
-    color: #333;
+    color: var(--colorText);
     line-height: 1.2;
     max-width: 650px;
+    font-family: Fira Sans;
 }
 
 .videoContainer .descCamp{
@@ -641,15 +642,16 @@ h1{
 .videoContainer .descCamp h3{
     font-size: 40px;
     font-weight: 800;
-    color: #333;
+    color: var(--colorText);
     line-height: 1.2;
 }
 
 .videoContainer .descCamp p{
     font-size: 16px;
-    color: #333;
+    color: var(--colorText);
     line-height: 1.2;
     max-width: 650px;
+    font-family: Fira Sans;
 }
 
 .videoContainer .videoCamp{
@@ -769,6 +771,7 @@ h1{
   color: #333;
   line-height: 1.2;
   max-width: 650px;
+  font-family: Fira Sans;
 }
 
 .videoContainer .videow{
@@ -794,7 +797,7 @@ h1{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
@@ -802,7 +805,6 @@ h1{
     padding: 20px 50px;
     opacity: 0;
     transition: 0.5s all;
-    margin-bottom: 30px;
 }
 
 .appInfo .imgs{
@@ -835,21 +837,22 @@ h1{
     background-color: #fff;
     border-radius: 3px;
     overflow: hidden;
-    padding: 20px;
-    gap: 30px;
+    padding: 10px 20px;
+    gap: 15px;
+    width: 100%;
 }
 
 .appInfo .textCamp h3{
-    font-size: 30px;
-    font-weight: 800;
-    color: #333;
-    line-height: 1.2;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--colorText);
 }
 
 .appInfo .textCamp p{
     font-size: 18px;
-    color: #333;
+    color: var(--colorText);
     line-height: 1.2;
+    font-family: Fira Sans;
 }
 
 /*######## obout ##############*/
