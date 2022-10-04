@@ -12,9 +12,9 @@ include('./../app/autoload.php');
     <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Ponto digital,Controle acesso, Porta cartão, Relogio cartografico, Relogio henry, Controle de ponto, Ponto web, Ponto facial, Cartao de ponto, Fitas relogio de ponto,Relogio vigia, Controle de ponto,Pontosecullum, Ponto Atecsolft, Relogio de ponto homologado, Relogio de ponto aprovado inmetro,Porta cartão, eletroponto, eletroponto rn, eletroponto natal, catraca de ponto, jornada de trabalho">
+    <meta name="keywords" content="Psicologia, Psicologia RN, Cognitiva, Psicoloia cognitiva, Estimulação Cognitiva, Estimulacao Cognitiva, Curso Psicologia, Mente humana, Poder da mente, Cerebro mais ativo, atividade do cerebro">
     <meta name="author" content="Força Web">
-    <meta name="Description" CONTENT="Batidas de pontos e controle de catracas para grandes e pequenas empresas.">
+    <meta name="Description" content="Por meio das atividades e práticas cognitivas realizadas no Cérebro+Ativo, é possível exercitar e promover a ativação cerebral promovendo novas conexões neurais, mais equilíbrio nas relações, resoluções de problemas cotidianos, estimulação das habilidades mentais e melhora da qualidade de vida.">
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index">
     <meta name="googlebot-news" content="snippet">
