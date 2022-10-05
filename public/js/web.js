@@ -118,10 +118,10 @@ function counts() {
       if (ez.top < 450) {
         if (body.clientWidth <= 460) return;
         descCamp[i].style.transition = `0.3s all`;
-        descCamp[i].style.marginLeft = "0px";
+        descCamp[i].style.marginRight = "0px";
         descCamp[i].style.opacity = "100%";
         videoCamp[i].style.transition = `0.3s all`;
-        videoCamp[i].style.marginRight = "0px";
+        videoCamp[i].style.marginLeft = "0px";
         videoCamp[i].style.opacity = "100%";
       }
     }

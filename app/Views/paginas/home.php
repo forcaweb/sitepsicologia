@@ -51,13 +51,34 @@
       </div>
   </div>
 
+<div class="divisor" id="about">
+  <h3>Professor - Sr.Jayme</h3>
+</div>
+
   <div class="divisor" id="includes">
       <h3>O que vem inluido no curso</h3>
   </div>
 
   <div class="category">
     <h1>Nossos cursos inclui</h1>
-    
+    <div class="includeCourse">
+      <table>
+        <thead>
+          <th>Material</th>
+          <th>Incluido/Não incluido</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Livro Fake de psicologia</td>
+            <td><i class="bi bi-check"></i></td>
+          </tr>
+          <tr>
+            <td>Livro Fake de psicologia</td>
+            <td><i class="bi bi-x"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="budget">
