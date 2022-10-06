@@ -219,9 +219,9 @@ h1{
     align-items: center;
     background-image: url(../img/bg.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 30%;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .content{
@@ -497,7 +497,7 @@ h1{
 }
 
 .divisor h3{
-    font-size: 35px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1204,6 +1204,34 @@ h1{
 .includeCourse table tr:hover td{
     background-color: var(--colorSecundary);
     color: #fff;
+}
+
+.profCamp{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.profCamp img{
+    width: 100%;
+    max-width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px 30px 10px 5px;
+}
+
+.profCamp h3{
+    padding: 10px;
+    font-size: 30px;
+    color: var(--colorText);
+    font-weight: lighter;
+}
+
+.profCamp p{
+    padding: 10px;
+    font-size: 15px;
+    color: var(--colorText);
 }
 
 @media only screen and (max-width: 920px) {

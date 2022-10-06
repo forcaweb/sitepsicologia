@@ -55,6 +55,20 @@
   <h3>Professor - Sr.Jayme</h3>
 </div>
 
+<div class="appInfo">
+  <div class="profCamp">
+    <img src="https://cdn.usjt.br/app/uploads/2018/08/06113104/imagem39-mob.jpg" alt="" />
+    <h3>Olá, me chamo Jayme.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur enim deleniti. Eius reprehenderit quibusdam quo, illum minus similique in optio exercitationem porro tempora nesciunt! Necessitatibus illum impedit doloremque debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur enim deleniti. Eius reprehenderit quibusdam quo, illum minus similique in optio exercitationem porro tempora nesciunt! Necessitatibus illum impedit doloremque debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur enim deleniti. Eius reprehenderit quibusdam quo, illum minus similique in optio exercitationem porro tempora nesciunt! Necessitatibus illum impedit doloremque debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur enim deleniti. Eius reprehenderit quibusdam quo, illum minus similique in optio exercitationem porro tempora nesciunt! Necessitatibus illum impedit doloremque debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur enim deleniti. Eius reprehenderit quibusdam quo, illum minus similique in optio exercitationem porro tempora nesciunt! Necessitatibus illum impedit doloremque debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur enim deleniti. Eius reprehenderit quibusdam quo, illum minus similique in optio exercitationem porro tempora nesciunt! Necessitatibus illum impedit doloremque debitis!</p>
+    </div> 
+  </div>
+</div>
+
   <div class="divisor" id="includes">
       <h3>O que vem inluido no curso</h3>
   </div>
