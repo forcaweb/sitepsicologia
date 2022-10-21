@@ -98,7 +98,9 @@
   <div class="budget">
     <div class="content">
       <h1>Vai aprender:</h1>
-      <p> estimulação cognitiva atua diretamente nos mecanismos ligados à plasticidade cerebral (processo adaptativo do cérebro). Nas sessões, utilizamos exercícios e atividades terapêuticas que buscam preservar ou melhorar o desempenho de domínios como: memória, atenção, raciocínio, funções executivas, entre outros.</p>
+      <p>A estimulação cognitiva atua diretamente nos mecanismos ligados a plasticidade do cérebro, como memória, atenção, linguagem, funções executivas, Praxias (capacidades de executar movimentos), Gnosias (capacidade de percepção).
+      A estimulação cognitiva pode ser feita individualmente ou em grupo, nas duas modalidades o principal objetivo é promover a autonomia e independência do indivíduo, quanto as suas práticas diárias, e um ganho na qualidade de vida.
+      Quando feita em grupo, a estimulação cognitiva, promove socialização, melhora o humor e o desempenho individual.</p>
       <a href="<?= WtsRN ?>" target="blank">Inscrever-se no curso</a>
     </div>
   </div>
