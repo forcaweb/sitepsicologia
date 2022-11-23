@@ -7,19 +7,23 @@
   </div>
 
   <div class="divisor" id="about">
-      <h3>Oque vai aprender neste curso?</h3>
+      <h3>No Cérebro+Ativo, você encontra:</h3>
   </div>
 
   <div class="videoContainer">
         <div class="videoCamp">
           <video loop autoplay muted>
-            <source src="<?= URL ?>/video/1.mp4" type="video/mp4">
+            <source src="<?= URL ?>/video/2.mp4" type="video/mp4">
           </video>
           <div class="playVideo" data-video="3"><i class="bi bi-play-circle"></i></div>
         </div>
         <div class="descCamp">
-          <h3>Conheça um pouco sobre o curso</h3>
-          <p>Você vai aprender tudo sobre a psicologia e estimulação cognitiva. A mente humana tem segredos a seren desvendado. Entenda como uma pessoa pensa e entende uma informção.</p>
+          <p>Psicologia Clínica, Avaliação Psicológica , Neuropsicológica e Estimulação Cognitiva (treino de memória)</p>
+
+         <p>Saiba que você pode melhorar a sua capacidade de memória! </p>
+
+        <p>A psicologia cognitiva tem como foco os processos de aprendizagem e a elaboração do conhecimento. É por meio dos processos cognitivos que o ser humano consegue desenvolver as suas capacidades intelectuais e emocionais, por meio da percepção, linguagem,  atenção, memória, pensamento  raciocínio, capacidade de compreensão, etc.
+          A forma como a pessoa se comporta, está ligada diretamente à sua capacidade de receber as informações, compreender e aprender com elas. A cognição atua diretamente na capacidade de melhor autoestima da pessoa, promovendo o nível emocional, o autocontrole e a tomada de decisão.</p>
         </div> 
   </div>
 
@@ -74,7 +78,6 @@
   </div>
 
   <div class="category">
-    <h1>Nossos cursos inclui</h1>
     <div class="includeCourse">
       <table>
         <thead>
