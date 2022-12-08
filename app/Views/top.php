@@ -18,9 +18,9 @@
     <a class="navLocation" href="#includes" title="Softwares">Materiais</a>
   </div>
 </div>
-<div class="loadingContainer">
+<!-- <div class="loadingContainer">
     <div class='barprogress'>
         <img src="<?= URL ?>/img/load.gif" alt="">
         <p id="msg">Carregando...</p>
     </div>
-</div>
+</div> -->
