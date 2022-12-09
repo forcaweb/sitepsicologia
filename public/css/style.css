@@ -94,7 +94,7 @@ body {
     width: 100%;
     max-width: 570px;
     height: 100%;
-    background:linear-gradient(to right,#012840, #012840);
+    background:linear-gradient(to right,#412973, #412973);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,6 +105,7 @@ body {
 
 .container .welcomeContainer .logo img{
     width: 100%;
+    max-width: 370px;
     object-fit: cover;
 }
 
@@ -119,26 +120,20 @@ body {
     padding: 2px;
 }
 
-.container .welcomeContainer .logo span{
+.container .welcomeContainer .logo #textAuto{
     position: relative;
     display: block;
     font-size: 50px;
     font-weight: 600;
     text-align: center;
     color: var(--laranja);
-    height: 70px;
-    background: var(--azul);
+    height: 100px;
     padding: 2px;
 }
 
 .container .welcomeContainer nav{
-    position: absolute;
-    bottom: 20px;
-    right: 200px;
+    position: relative;
     display: block;
-    background: #D91E0D;
-    padding: 10px;
-    border-radius: 6px;
     box-shadow: 0 0 10px rgba(51, 51, 51, 0.278);
 }
 
@@ -148,6 +143,31 @@ body {
     font-size: 25px;
     font-weight: 500;
     text-align: center;
+    background: #D91E0D;
+    border-radius: 3px;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
+    transition: 0.3s all;
+}
+
+.container .welcomeContainer nav a:hover{
+    background: var(--laranja);
+}
+
+@media only screen and (max-width: 690px) {
+    .container .welcomeContainer .logo{
+        max-width: 100%;
+        position: relative;
+        min-height: 100vh;
+        background:linear-gradient(to right,#412973, #40297360);
+    }
+    .container .welcomeContainer .logo{
+        position: relative;
+    }
+    .container .welcomeContainer nav{
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
 }

@@ -19,11 +19,10 @@
       <img src="<?= URL ?>/img/logo.svg" alt="Logo cerebro mais ativo">
       <h1>Ative o seu cérebro e ganhe +</h1>
       <span id="textAuto"></span>
-    </div>
-    <nav>
+      <nav>
       <a href="/" target="_blank" rel="noopener noreferrer">Ganhe agora 7 dias de curso grátis </a>
     </nav>
+    </div>
   </section>
 </main>
-
 
