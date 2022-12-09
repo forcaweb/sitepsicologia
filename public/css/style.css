@@ -17,21 +17,22 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --laranja: #f39639;
+    --rosa: #f1978e;
+    --azul: #14537c;
+    --ciano-escuro: #547d99;
+    --ciano-claro: #b4cedd;
+}
+
 body {
     position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #fffefe;
+    background-color: var(--ciano-claro);
     align-items: center;
-}
-
-:root {
-    --colorDefault: #332F4A;
-    --colorSecundary: #294761;
-    --colorText: #181821;
-    --colorBlack: #333;
 }
 
 ::-webkit-scrollbar-track {
@@ -53,4 +54,100 @@ body {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .carroselContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .carroselContainer .swiper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.container .welcomeContainer{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .welcomeContainer .logo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 570px;
+    height: 100%;
+    background:linear-gradient(to right,#012840, #012840);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 10px;
+}
+
+.container .welcomeContainer .logo img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .welcomeContainer .logo h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--ciano-claro);
+    position: relative;
+    display: block;
+    width: 70%;
+    padding: 2px;
+}
+
+.container .welcomeContainer .logo span{
+    position: relative;
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--laranja);
+    height: 70px;
+    background: var(--azul);
+    padding: 2px;
+}
+
+.container .welcomeContainer nav{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    display: block;
+    background: #D91E0D;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.278);
+}
+
+.container .welcomeContainer nav a{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
 }

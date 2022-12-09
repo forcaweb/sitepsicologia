@@ -2,27 +2,23 @@
   <section class="carroselContainer">
     <div class="swiper selfies">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
+          <?php
+            $total = 26;
+            for($i = 1; $i < $total; $i++){
+          ?>
+          <div class="swiper-slide">
+            <img src="<?= URL ?>/img/aulas/<?= $i ?>.jpg" alt="aulas cerebro mais ativo">
+          </div>
+          <?php } ?>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
       </div>
   </section>
+
   <section class="welcomeContainer">
-  <div class="logo">
+    <div class="logo">
       <img src="<?= URL ?>/img/logo.svg" alt="Logo cerebro mais ativo">
-    </div>
-    <div class="content">
-      <h1>Psicologia cognitiva trata do modo como as pessoas: <span id="textAuto"></span></h1>
+      <h1>Ative o seu cérebro e ganhe +</h1>
+      <span id="textAuto"></span>
     </div>
     <nav>
       <a href="/" target="_blank" rel="noopener noreferrer">Ganhe agora 7 dias de curso grátis </a>

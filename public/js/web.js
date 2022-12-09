@@ -5,7 +5,7 @@ function textAuto(num = 0) {
   let n = num;
   let i = 0;
   const text = [
-    'Memória, Atenção, Foco, Raciocínio, Criatividade, Agilidade.'
+    'Memória', 'Atenção', 'Foco', 'Raciocínio', 'Criatividade', 'Agilidade'
   ]
   const confere = setInterval(() => {
     if (n === text.length) {
