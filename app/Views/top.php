@@ -1,26 +1,14 @@
 <header class="header">
-   <div class="navigation">
-        <a href="<?= URL ?>/"><img src="<?= URL ?>/img/logo.svg" alt="" title="<?= NAME_WEB ?>"></a>
-   </div>
-   <div class="navigation">
+   <nav class="navigation">
+        <a href="<?= URL ?>/"><img src="./img/icon.png" alt=""> Cérebro + ativo</a>
+   </nav>
+   <nav class="navigation">
         <a href="<?= URL ?>/" title="Página inicial"><i class="bi bi-house"></i> Home</a>
-        <a class="navLocation" href="#about" title="Sobre Eletroponto">Sobre</a>
-        <a class="navLocation" href="#includes" title="Softwares">Materiais</a>
-     </div>
-   <div class="navigation-mobile">
-        <a id="menu-active-mobile" href="#" title="Página Acesso restrito" class="bi bi-list"></a>
-   </div>
+        <a class="navLocation" href="#Links" title="Links"><i class="bi bi-telephone-fill"></i> Contatos</a>
+        <a class="navLocation" href="#Links" title="Links"><i class="bi bi-geo-alt-fill"></i> Localização</a>
+     </nav>
+     <nav class="navigation-mb">
+        <a href="<?= URL ?>/" title="Menu"><i class="bi bi-list"></i></a>
+         </nav>
 </header>
-<div class="menu-mobile">
-  <div class="container-links">
-    <a href="<?= URL ?>/" title="Página inicial"><i class="bi bi-house"></i> Home</a>
-    <a class="navLocation" href="#about" title="Sobre Eletroponto">Sobre</a>
-    <a class="navLocation" href="#includes" title="Softwares">Materiais</a>
-  </div>
 </div>
-<!-- <div class="loadingContainer">
-    <div class='barprogress'>
-        <img src="<?= URL ?>/img/load.gif" alt="">
-        <p id="msg">Carregando...</p>
-    </div>
-</div> -->
