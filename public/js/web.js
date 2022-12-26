@@ -31,4 +31,24 @@ function textPause(num) {
   }, 2000);
 }
 
-window.onload = textAuto();
+function effectFade(){
+  // Element 1
+  const el = document.querySelector('#contentFirst article');
+  document.addEventListener('scroll', (event) => {
+    if(event.path[1].scrollY > 300){
+      el.classList.add('effectfade');
+    }
+  })
+
+  // Element 2
+  const el2 = document.querySelector('#contentSecunds article');
+  document.addEventListener('scroll', (event) => {
+    if(event.path[1].scrollY > 1000){
+      el2.classList.add('effectfade');
+    }
+  })
+}
+
+
+
+window.onload = textAuto(), effectFade();

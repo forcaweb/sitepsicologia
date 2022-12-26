@@ -13,6 +13,16 @@
     src: url(../font/montserrat/Montserrat-Bold.otf);
 }
 
+@font-face {
+    font-family: Hind;
+    src: url(../font/Hind_Siliguri/HindSiliguri-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hind-bold;
+    src: url(../font/Hind_Siliguri/HindSiliguri-Bold.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -287,7 +297,7 @@ body {
 
 .header .navigation:nth-child(1) a{
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .content{
@@ -300,7 +310,7 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px #333;
     z-index: 100;
-    padding: 30px 40px;
+    padding: 50px 40px;
     min-height: 100vh;
 }
 
@@ -338,6 +348,7 @@ body {
     align-items: center;
     z-index: 100;
     gap: 10px;
+    opacity: 0;
 }
 
 .content article div{
@@ -352,6 +363,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    padding: 10px;
 }
 
 .content article .text h2{
@@ -365,9 +377,25 @@ body {
 }
 
 .content article .text p{
-    font-size: 20px;
-    font-family: Montserrat;
+    font-size: 19px;
+    font-family: Hind;
     color: #000;
+}
+
+.content article .text ul{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.content article .text ul li{
+    list-style: disc;
+    font-size: 17px;
 }
 
 .content article .video{
@@ -379,7 +407,28 @@ body {
     gap: 10px;
 }
 
-@media only screen and (max-width: 860px) {
+.content article .img{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content article .img img{
+    width: 100%;
+    display: block;
+    position: relative;
+    object-fit: cover;
+}
+
+.effectfade{
+    transition: 0.4s all;
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 1060px) {
     .container .wellcome .carroselContainer{
         height: 100%;
     }
@@ -395,7 +444,11 @@ body {
         padding: 40px 20px;
     }
 
-    .content article{
+    #contentFirst article{
+        flex-wrap: wrap-reverse;
+    }
+
+    #contentSecunds article{
         flex-wrap: wrap;
     }
 

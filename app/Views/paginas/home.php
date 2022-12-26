@@ -26,7 +26,7 @@
       </div>
     </section>
   </section>
-  <section class="content">
+  <section class="content" id="contentFirst">
         <article>
           <div class="text">
             <h2>O QUE É O <span>CÉREBRO+ATIVO</span>?</h2>
@@ -37,6 +37,27 @@
           </div>
           <div class="video">
           <iframe width="100%" height="370" src="https://www.youtube.com/embed/eMotXjlLLZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </article>      
+  </section>
+
+  <section class="content" id="contentSecunds">
+        <article>
+          <div class="img">
+            <img src="<?= URL ?>/img/aulas/1.jpeg" alt="Alunos">
+          </div>
+          <div class="text">
+            <h2>QUEM PODE SER <span>ALUNO</span>?</h2>
+
+            <p>Qualquer pessoa com dificuldades de memória e/ou transtornos de aprendizagem como TDA E TDAH.</p>
+
+            <ul>
+            <li>Crianças</li>
+            <li>Adolescentes</li>
+            <li>Jovens</li>
+            <li>Adultos</li>
+            <li>Idosos</li> 
+            </ul>
           </div>
         </article>      
   </section>
