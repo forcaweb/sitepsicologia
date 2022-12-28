@@ -61,5 +61,20 @@
           </div>
         </article>      
   </section>
+
+  <section class="content-ext" id="contentThird">
+        <article>
+          <div class="text">
+            <h2>QUAIS OS  <span>BENEFÍCIOS</span>?</h2>
+            <ul>
+            <li>Estimulação das capacidades cognitivas como: atenção, percepção, memória, raciocínio, imaginação, pensamento, linguagem, criatividade, capacidade de ação, coordenação motora, concentração;</li>
+            <li>desenvolvimento de habilidades para solucionar problemas;</li>
+            <li>prevenção de transtornos como estresse, ansiedade, depressão;</li>
+            <li>reabilitação em casos de AVC e no retardo da demência por Alzheimer;</li>
+            <li>recuperação das dificuldades de memória pós-covid.</li> 
+            </ul>
+          </div>
+        </article>      
+  </section>
 </main>
 

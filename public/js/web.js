@@ -47,6 +47,14 @@ function effectFade(){
       el2.classList.add('effectfade');
     }
   })
+
+  // Element 3
+  const el3 = document.querySelector('#contentThird article');
+  document.addEventListener('scroll', (event) => {
+    if(event.path[1].scrollY > 1300){
+      el3.classList.add('effectfade');
+    }
+  })
 }
 
 
