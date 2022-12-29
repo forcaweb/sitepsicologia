@@ -36,6 +36,7 @@ include('./../app/autoload.php');
 <body>
     <?php include '../app/Views/top.php';?>
     <?php $rotas = new Rota(); ?>
+    <?php include '../app/Views/footer.php';?>
     <script src="<?=URL?>/public/js/swiper-bundle.min.js?<?= VER_WEB ?>"></script>
     <script src="<?=URL?>/public/js/swiper.js?<?= VER_WEB ?>"></script>
     <script src="<?=URL?>/public/js/web.js?<?= VER_WEB ?>"></script>

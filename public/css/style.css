@@ -243,14 +243,12 @@ body {
 .header{
     width: 100%;
     position: relative;
-    top: 0;
-    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1b325f;
     box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
-    padding: 20px 40px;
+    padding: 0px 40px;
     z-index: 10000;
 }
 
@@ -261,8 +259,9 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 15px;
+    gap: 10px;
 }
+
 .header .navigation img{
     width: 100%;
     max-width: 32px;
@@ -292,12 +291,29 @@ body {
 
 .header .navigation a:hover, .header .navigation-mb a:hover{
     color: #06afcd;
-    transform: scale(1.1);
+}
+
+.header .navigation{
+    padding: 10px 0;
 }
 
 .header .navigation:nth-child(1) a{
     font-size: 21px;
     font-weight: 500;
+    border-radius: 3px;
+    transition: 0.4s all;
+    color: #fff;
+    background-color: #14537c;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.header .navigation:nth-child(1) a img{
+    background-color: #06afcd;
+    border-radius: 50%;
+    position: relative;
+    padding: 3px;
+    object-fit: cover;
 }
 
 .content{
@@ -507,6 +523,81 @@ body {
     opacity: 1 !important;
 }
 
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21203f;
+    padding: 0px 40px;
+}
+
+.footer .linksUltis {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer .linksUltis .boxLinks{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.footer .linksUltis .boxLinks h2{
+    font-size: 30px;
+    color: #06afcd;
+    text-align: center;
+}
+
+.footer .linksUltis .boxLinks p{
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .linksUltis .boxLinks a{
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.footer .linksUltis .boxLinks a:hover{
+    color: #06afcd;
+}
+
+.footer .credits{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    color: #fff;
+}
+
+.footer .credits small a{
+    color: #06afcd;
+}
+
 @media only screen and (max-width: 1060px) {
     .container .wellcome .carroselContainer{
         height: 100%;
@@ -554,5 +645,8 @@ body {
 @media only screen and (max-width: 460px) {
     .content article .video iframe{
         height: 170px;
+    }
+    .header{
+        padding: 0 20px;
     }
 }
