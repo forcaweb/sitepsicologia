@@ -3,9 +3,8 @@
       
       <div class="boxLinks">
         <h2>Link Rápido</h2>
-        <a href="<?= URL ?>/" title="Página inicial"><i class="bi bi-house"></i> Home</a>
-        <a class="navLocation" href="#Links" title="Links"><i class="bi bi-telephone-fill"></i> Contatos</a>
-        <a class="navLocation" href="#Links" title="Links"><i class="bi bi-geo-alt-fill"></i> Localização</a>
+        <a href="<?= URL ?>/" title="Página inicial" arial-label>Home</a>
+        <a class="navLocation" href="<?= URL ?>/paginas/contacts" title="Contatos">Contatos</a>
       </div>
 
       <div class="boxLinks">

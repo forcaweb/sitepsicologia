@@ -2,7 +2,7 @@
     class Rota{
 
         //Variaveis
-        private $controlador = "Paginas";
+        private $controlador = "Pages";
         private $metodo = "index";
         private $paramentros = [];
 
@@ -21,7 +21,6 @@
 
             //Executa Controlador
             $this->controlador = new $this->controlador;
-            
             //Executa o metodo
             if(isset($url[1])):
                 if(method_exists($this->controlador, $url[1])):

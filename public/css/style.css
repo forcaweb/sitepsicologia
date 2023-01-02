@@ -72,6 +72,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    animation: fadeinpages 2s;
+}
+
+@keyframes fadeinpages {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .wellcome{
@@ -275,7 +286,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     gap: 7px;
     transition: 0.2s all ease-in;
@@ -592,11 +603,114 @@ body {
     width: 100%;
     gap: 10px;
     color: #fff;
+    text-align: center;
 }
 
 .footer .credits small a{
     color: #06afcd;
 }
+
+.contactsContainer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeinpages 2s;
+    background-color: #fff;
+    gap: 20px;
+}
+
+.contactsContainer .titleContacts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 370px;
+    background-image: url(../img/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.439); 
+    padding: 20px;
+}
+
+.contactsContainer .titleContacts h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+    gap: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.contactsContainer .titleContacts h1 i{
+    color: #06afcd;
+}
+
+.contactsContainer .navigationContacts{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;;
+    border-bottom: 2px solid #fff;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contactsContainer .navigationContacts li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
+    width: 170px;
+}
+
+.contactsContainer .navigationContacts li i{
+    font-size: 70px;
+    color: #fff;
+    background-color: #06afcd;
+    width: 100%;
+    text-align: center;
+}
+
+.contactsContainer .navigationContacts li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1b325f;
+    padding: 10px;
+    width: 100%;
+    transition: 0.2s all;
+    text-align: center;
+}
+
+.contactsContainer .navigationContacts li a:hover{
+    background-color: #14537c;
+}
+
+.contactsContainer .maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contactsContainer h2{
+    font-size: 40px;
+    color: #06afcd;
+    border-bottom: 2px solid #14537c;
+    padding: 10px;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 1060px) {
     .container .wellcome .carroselContainer{

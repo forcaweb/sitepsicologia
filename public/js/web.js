@@ -1,6 +1,7 @@
 
 function textAuto(num = 0) {
   const textAuto = document.getElementById('textAuto');
+  if(!textAuto) return;
   textAuto.innerHTML = "";
   let n = num;
   let i = 0;
@@ -34,6 +35,7 @@ function textPause(num) {
 function effectFade(){
   // Element 1
   const el = document.querySelector('#contentFirst article');
+  if(!el) return;
   document.addEventListener('scroll', (event) => {
     if(event.path[1].scrollY > 300){
       el.classList.add('effectfade');

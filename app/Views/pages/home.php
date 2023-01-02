@@ -1,4 +1,4 @@
-<main class="container effectfade">
+<main class="container">
   <section class="wellcome">
     <section class="carroselContainer">
       <div class="swiper selfies">
