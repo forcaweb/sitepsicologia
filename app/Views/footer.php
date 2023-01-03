@@ -4,7 +4,7 @@
       <div class="boxLinks">
         <h2>Link Rápido</h2>
         <a href="<?= URL ?>/" title="Página inicial" arial-label>Home</a>
-        <a class="navLocation" href="<?= URL ?>/paginas/contacts" title="Contatos">Contatos</a>
+        <a class="navLocation" href="<?= URL ?>/pages/contacts" title="Contatos">Contatos</a>
       </div>
 
       <div class="boxLinks">
