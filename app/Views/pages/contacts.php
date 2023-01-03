@@ -14,7 +14,7 @@
         </li>
         <li>
             <i class="bi bi-whatsapp"></i>
-            <a href="<?= WtsRN ?>" aria-label="Whatsapp Empresárial">(84) 9 9635-8306</a>
+            <a href="<?= WtsRN ?>" aria-label="Whatsapp Empresárial">(84) 9 9945-1999</a>
         </li>
     </nav>
     <h2>Localização:</h2>

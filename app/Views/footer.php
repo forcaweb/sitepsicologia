@@ -9,7 +9,7 @@
 
       <div class="boxLinks">
         <h2>Contatos</h2>
-        <a href="<?= WtsRN ?>" title="Comercial">(84) 9 9635-8306</a>
+        <a href="<?= WtsRN ?>" title="Comercial">(84) 9 9945-1999</a>
         <p>(84) 2020-1999</p>
         <p>suporte@hotmail.com</p>  
       </div>

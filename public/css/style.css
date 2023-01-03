@@ -711,6 +711,44 @@ body {
     text-align: center;
 }
 
+.navigation-mobile{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: -10000px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    transition: 0.2s all ease-in-out;
+}
+
+.navigation-mobile a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #1b325f;
+    font-weight: bold;
+}
+
+
+.navigation-mobile #close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #06afcd;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.show{
+    left: 0;
+}
+
 
 @media only screen and (max-width: 1060px) {
     .container .wellcome .carroselContainer{
@@ -755,6 +793,8 @@ body {
         color: #14537c;
     }
 }
+
+
 
 @media only screen and (max-width: 460px) {
     .content article .video iframe{

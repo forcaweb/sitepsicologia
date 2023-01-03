@@ -59,6 +59,21 @@ function effectFade(){
   })
 }
 
+function menuMobile(){
+  const menu = document.getElementById('menu');
+  const close = document.getElementById('close');
+  const menulist = document.querySelector('.navigation-mobile');
+  menu.onclick  = (e)=>{
+    e.preventDefault();
+    menulist.classList.toggle('show');
+  }
+
+  close.onclick  = (e)=>{
+    e.preventDefault();
+    menulist.classList.toggle('show');
+  }
+}
 
 
-window.onload = textAuto(), effectFade();
+
+window.onload = textAuto(), effectFade(), menuMobile();
