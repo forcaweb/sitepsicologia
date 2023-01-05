@@ -6,7 +6,7 @@
     <nav class="navigationContacts">
         <li>
             <i class="bi bi-envelope"></i>
-            <a href="mailto:" aria-label="Email Empresárial">teste@teste.com</a>
+            <a href="mailto:cerebromaisativo@gmail.com" aria-label="Email Empresárial">cerebromaisativo@gmail.com</a>
         </li>
         <li>
             <i class="bi bi-telephone-fill"></i>
@@ -15,6 +15,10 @@
         <li>
             <i class="bi bi-whatsapp"></i>
             <a href="<?= WtsRN ?>" aria-label="Whatsapp Empresárial">(84) 9 9945-1999</a>
+        </li>
+        <li>
+            <i class="bi bi-instagram"></i>
+            <a href="<?= inst ?>" aria-label="Intagram Empresárial">@cerebromaisativo</a>
         </li>
     </nav>
     <h2>Localização:</h2>

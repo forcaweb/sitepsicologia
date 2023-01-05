@@ -473,7 +473,7 @@ body {
     z-index: 100;
     gap: 10px;
     opacity: 0;
-    background-image:  url(../../public/img/bg.png);
+    background-image:  url(../../public/img/bg2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -669,7 +669,8 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
-    width: 170px;
+    width: 270px;
+    position: relative;
 }
 
 .contactsContainer .navigationContacts li i{
@@ -689,6 +690,8 @@ body {
     width: 100%;
     transition: 0.2s all;
     text-align: center;
+    position: relative;
+    font-size: 19px;
 }
 
 .contactsContainer .navigationContacts li a:hover{

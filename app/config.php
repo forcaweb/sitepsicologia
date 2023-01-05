@@ -22,7 +22,7 @@ define('URL', 'http://localhost/sitepsicologia');
 define('DOM_WEB', 'www.cerebromaisativo.com.br');
 
 //Links uteis
-define('WtsRN', 'https://api.whatsapp.com/send?phone=5584999451999');
-define('inst', 'https://www.instagram.com');
+define('WtsRN', 'https://wa.me/5584999451999?text=Ol%C3%A1+tudo+bem%2C+vim+pelo+site+cerebromaisativo.com.br.+Preciso+de+informa%C3%A7%C3%B5es.');
+define('inst', 'https://www.instagram.com/cerebromaisativo/');
 //Link do desenvolvedor
 define('DEV', 'https://forcaweb.net');

@@ -21,7 +21,7 @@
         <h1>Ative o seu cérebro e ganhe +</h1>
         <span id="textAuto"></span>
         <nav>
-        <a href="/" target="_blank" rel="noopener noreferrer">Ganhar treino grátis </a>
+        <a href="/" target="_blank" rel="noopener noreferrer">GANHE UMA AULA-TREINO</a>
       </nav>
       </div>
     </section>
@@ -36,7 +36,7 @@
             <p>Por meio das atividades e práticas cognitivas realizadas no Cérebro+Ativo, é possível exercitar e promover a ativação cerebral promovendo novas conexões neurais, mais equilíbrio nas relações, resoluções de problemas cotidianos, estimulação das habilidades mentais e melhora da qualidade de vida.</p>
           </div>
           <div class="video">
-          <iframe width="100%" height="370" src="https://www.youtube.com/embed/eMotXjlLLZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="370" src="https://www.youtube.com/embed/ccvJeun9BXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </article>      
   </section>

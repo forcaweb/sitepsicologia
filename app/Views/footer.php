@@ -10,12 +10,12 @@
       <div class="boxLinks">
         <h2>Contatos</h2>
         <a href="<?= WtsRN ?>" title="Comercial">(84) 9 9945-1999</a>
-        <p>(84) 2020-1999</p>
-        <p>suporte@hotmail.com</p>  
+        <a href="tel:+558420201999" title="Comercial">(84) 2020-1999</a>
+        <a href="mailto:cerebromaisativo@gmail.com" title="Comercial">cerebromaisativo@gmail.com</a>
       </div>
 
       <div class="boxLinks">
-        <h2>Endereços</h2>
+        <h2>Endereço</h2>
         <p>Av. Romualdo Galvão, 366 - Barro Vermelho, Natal/RN, 59022-100</p>
       </div>
 
