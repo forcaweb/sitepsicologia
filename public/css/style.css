@@ -530,7 +530,7 @@ body {
 }
 
 .effectfade{
-    transition: 0.4s all;
+    transition: 0.7s all;
     opacity: 1 !important;
 }
 

@@ -35,28 +35,31 @@ function textPause(num) {
 function effectFade(){
   // Element 1
   const el = document.querySelector('#contentFirst article');
-  if(!el) return;
-  document.addEventListener('scroll', (event) => {
-    if(event.path[1].scrollY > 300){
-      el.classList.add('effectfade');
-    }
-  })
 
   // Element 2
   const el2 = document.querySelector('#contentSecunds article');
-  document.addEventListener('scroll', (event) => {
-    if(event.path[1].scrollY > 1000){
-      el2.classList.add('effectfade');
-    }
-  })
 
   // Element 3
   const el3 = document.querySelector('#contentThird article');
-  document.addEventListener('scroll', (event) => {
-    if(event.path[1].scrollY > 1300){
+
+  if(!el) return;
+  document.addEventListener('scroll', () => {
+    const top = (document.documentElement && document.documentElement.scrollTop) || 
+    document.body.scrollTop;
+
+    if(top > 400){
+      el.classList.add('effectfade');
+    }
+
+    if(top > 1100){
+      el2.classList.add('effectfade');
+    }
+
+    if(top > 1600){
       el3.classList.add('effectfade');
     }
   })
+
 }
 
 function menuMobile(){
